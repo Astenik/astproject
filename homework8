@@ -1,0 +1,11 @@
+def contain(data, value):
+    """this function reurns true if the data list contains value else returns false"""
+    i=0
+    while i < len(data):
+         if data[i] == value:
+             return true
+         i += 1
+     reurn false
+     
+     
+ print("Whedher the data contains 5:", contain(data, 5))
