@@ -6,7 +6,7 @@ def min(data):
         if data[ind] < _min:
             _min = data[ind]
         ind += 1
-    return _min
+   return _min
     
     
 data = [3, 4, 7, 8]
