@@ -6,7 +6,7 @@ def max(data):
         if data[ind] > _max:
             _max = data[ind]
         ind += 1
-    return _max
+   return _max
     
     
 data = [3, 4, 7, 8]
