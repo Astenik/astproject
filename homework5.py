@@ -14,11 +14,11 @@ def  iterative_func(n):
          return -1
      num = 2
      while n >= 2:
-         num+= (num - 1) + (num - 2)
-      return num
+         num += (num - 1) + (num - 2)
+     return num
       
 print("Iterative function is equal:", iterative_func(23))
-def  tail_rec_func(n, res=2):
+def  tail_rec_func(n, res = 2):
       """this is a tail recursiv function that returns n if n<3 and tail_rec_func(n-1)+tail_rec_func(n-2)+tail_rec_func(n-3) if n>-3"""
       if n >= 0 and n < 3:  
           return res
