@@ -8,7 +8,7 @@ def revers(data):
        i += 1
        j -= 1
     return data1
-    t
+    
     
 data = [8, 9, 24, 9]
 print("The reveres version of data is:", revers(data))
